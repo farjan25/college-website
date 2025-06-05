@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { X } from 'lucide-react'
 import { Button } from './ui/button'
 import { useEffect, useState } from 'react'
-import { supabase } from '@/supabase'
+import  supabase  from '@/supabase'
 import { User } from '@supabase/supabase-js'
 
 interface postProps {

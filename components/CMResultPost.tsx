@@ -3,7 +3,7 @@ import { X } from 'lucide-react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { Button } from './ui/button'
-import { supabase } from '@/supabase'
+import  supabase  from '@/supabase'
 
 export default function CMResultPost({ closePost }: { closePost: () => void }) {
     
